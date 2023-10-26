@@ -1,0 +1,62 @@
+/* ul {
+    position: absolute;
+    left: 0;
+    width: 30%;
+    background-color: red;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+} */
+
+/* users.css */
+/* users.css */
+
+/* Style for the <ul> element */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style for each <li> element representing a user */
+  li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    background-color: #262d31; /* Dark background color */
+    border-bottom: 1px solid #30373a; /* Dark border color */
+    height: 75px;
+  }
+
+
+  
+  /* Hover effect */
+  li:hover {
+    background-color: #354048; /* Darker background color on hover */
+  }
+  
+  /* Style for the user name text */
+  li h3 {
+    font-weight: bold;
+    margin-left: 10px;
+    color: #ffffff; /* White text color */
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  /* Style for the user avatar (you can use an actual image or an icon) */
+  li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    border: 2px solid #ffffff; /* White border around the avatar */
+  }
+   
