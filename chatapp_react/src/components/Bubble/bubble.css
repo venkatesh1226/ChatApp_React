@@ -9,14 +9,14 @@
 }
 
 
-.align-left {
+.align-right {
     align-self: flex-end;
     background-color: #007BFF;
     color: #fff;
     margin-right: auto;
     }
     
-.align-right {
+.align-left {
         align-self: flex-start;
         background-color: #DDFBC6;
         color: #000;
